@@ -11,6 +11,7 @@ RUN apk --no-cache upgrade \
         less less-doc \
         coreutils coreutils-doc \
         findutils findutils-doc \
-        grep grep-doc
+        grep grep-doc \
+        ca-certificates
 
 CMD ["/bin/bash"]
