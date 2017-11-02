@@ -12,6 +12,9 @@ RUN apk --no-cache upgrade \
         coreutils coreutils-doc \
         findutils findutils-doc \
         grep grep-doc \
-        ca-certificates
+        ca-certificates \
+        tar tar-doc \
+        zip zip-doc \
+        unzip unzip-doc
 
 CMD ["/bin/bash"]
