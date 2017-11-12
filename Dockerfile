@@ -1,5 +1,7 @@
 FROM alpine
 
+COPY inputrc /etc/inputrc
+
 ENV TERM=xterm-color \
     PAGER=less \
     PS1="\w \$ "
